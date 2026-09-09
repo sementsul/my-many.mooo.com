@@ -976,7 +976,7 @@ def main():
     tracked = tracked[:HIST_TRACK]
     prev, _ = fetch_json(f"{BASE}/data/chain-history.json", "chain-history.json")  # прошлая история с живого сайта
     pts = (prev.get("points") if isinstance(prev, dict) else {}) or {}
-    keep, by_slug_hist = {}, defaultdict(dict)
+    keep, by_slug_hist = dict(pts), defaultdict(dict)
     for profit, key, slug, price in tracked:
         ser = pts.get(key, [])
         if not ser or ser[-1][0] != gen_ts:                 # не дублируем один и тот же момент данных
