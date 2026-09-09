@@ -43,15 +43,15 @@ TOP_CAP = 800                                       # цепочек в мони
 HIST_TRACK = 800                                    # для скольких топ-цепочек пишем историю доходности
 HIST_PTS = 720                                      # точек истории на цепочку (~30 дней при часовых данных)
 
-VERIFY = '<meta name="yandex-verification" content="d5dd2e5c5d4ee324" />'
+VERIFY = ''
 
 ANALYTICS = """<!-- Yandex.Metrika -->
 <script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
 m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
 k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-(window,document,'script','https://mc.yandex.ru/metrika/tag.js?id=111586112','ym');
+(window,document,'script','','ym');
 ym(111586112,'init',{ssr:true,webvisor:true,clickmap:true,accurateTrackBounce:true,trackLinks:true});</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/111586112" style="position:absolute;left:-9999px;" alt=""/></div></noscript>
+<noscript><div><img src="" style="position:absolute;left:-9999px;" alt=""/></div></noscript>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPN27D6JXS"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
