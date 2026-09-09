@@ -45,17 +45,9 @@ HIST_PTS = 720                                      # точек истории 
 
 VERIFY = ''
 
-ANALYTICS = """<!-- Yandex.Metrika -->
-<script>(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-m[i].l=1*new Date();for(var j=0;j<document.scripts.length;j++){if(document.scripts[j].src===r){return;}}
-k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-(window,document,'script','','ym');
-ym(111586112,'init',{ssr:true,webvisor:true,clickmap:true,accurateTrackBounce:true,trackLinks:true});</script>
-<noscript><div><img src="" style="position:absolute;left:-9999px;" alt=""/></div></noscript>
-<!-- Google tag (gtag.js) -->
+ANALYTICS = """<!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-PPN27D6JXS"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}
-gtag('js',new Date());gtag('config','G-PPN27D6JXS');</script>"""
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-PPN27D6JXS');</script>"""
 
 SUPP_CSS = """<style>
 .mm-updnote{color:#a8a8a8;font-size:13px;margin:2px 0 10px}
