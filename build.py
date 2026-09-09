@@ -388,7 +388,7 @@ def foot(lang):
             f'<a href="{rs(lang, "/politika/")}">Privacy policy</a>')
         fine = (f"18+. The information is for reference only and is not advertising, an offer or financial advice. "
                 f"Rates change. © {year} MyMany · {DOMAIN} — a RateScout project.<br>"
-                '<span class="erid">Site owner: self-employed (NPD) Sementsul Maxim Gennadievich, INN 381616884622.</span>')
+                '<span class="erid">Independent information resource. Not financial advice.</span>')
     else:
         disc = (f'<b>MyMany</b> — проект <a href="{rs(lang, "/")}" rel="noopener">RateScout</a> по арбитражу. База выгодных '
                 "цепочек обмена валют по данным мониторинга обменников "
@@ -410,7 +410,7 @@ def foot(lang):
             f'<a href="{rs(lang, "/politika/")}">Политика конфиденциальности</a>')
         fine = ("18+. Информация носит справочный характер, не является рекламой, офертой или финансовой "
                 f"рекомендацией. Курсы меняются. © {year} MyMany · {DOMAIN} — проект RateScout.<br>"
-                '<span class="erid">Владелец сайта: самозанятый (НПД) Семенцул Максим Геннадиевич, ИНН 381616884622.</span>')
+                '<span class="erid">Независимый информационный ресурс. Не является финансовой рекомендацией.</span>')
     return f"""
   </div></div>
 <div id="footer">
