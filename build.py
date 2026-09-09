@@ -382,7 +382,7 @@ def foot(lang):
             f'<a href="{rs(lang, "/vidzhet/")}">Widget</a> · <a href="{rs(lang, "/redakciya/")}">Editorial</a> · '
             '<a href="https://blogger.ratescout.info.gf/" target="_blank" rel="noopener me">Blog</a> · '
             '<a href="https://t.me/ratescout_kurs" target="_blank" rel="noopener me">Telegram</a> · '
-            '<a href="https://ok.ru/group/70000057243663" target="_blank" rel="noopener me">Odnoklassniki</a> · '
+            ''
             '<a href="https://mastodon.social/@ratescout_ru" target="_blank" rel="noopener me">Mastodon</a> · '
             f'<a href="{rs(lang, "/raskrytie/")}">Disclosure</a> · '
             f'<a href="{rs(lang, "/politika/")}">Privacy policy</a>')
@@ -403,7 +403,7 @@ def foot(lang):
             f'<a href="{rs(lang, "/vidzhet/")}">Виджет</a> · <a href="{rs(lang, "/redakciya/")}">О редакции</a> · '
             '<a href="https://blogger.ratescout.info.gf/" target="_blank" rel="noopener me">Блог</a> · '
             '<a href="https://t.me/ratescout_kurs" target="_blank" rel="noopener me">Telegram</a> · '
-            '<a href="https://ok.ru/group/70000057243663" target="_blank" rel="noopener me">Одноклассники</a> · '
+            ''
             '<a href="https://mastodon.social/@ratescout_ru" target="_blank" rel="noopener me">Mastodon</a> · '
             ' · '
             f'<a href="{rs(lang, "/raskrytie/")}">Раскрытие</a> · '
