@@ -25,7 +25,7 @@ from datetime import datetime, timezone
 ROOT = os.path.dirname(os.path.abspath(__file__))
 DIST = os.path.join(ROOT, "dist")
 DATA = os.path.join(ROOT, "data")
-DOMAIN = "my-many.mooo.com"
+DOMAIN = "my-many.info.gf"
 BASE = f"https://{DOMAIN}"
 RS = "https://ratescout.info.gf"                         # для перелинковки
 REF = "1116359"                                     # партнёрская метка BestChange (как у ratescout)
@@ -356,7 +356,7 @@ def head(lang, path, title, desc, extra_ld="", robots="", autoredir=False):
 <body>
 <div id="wrapper">
 <div id="header">
-  <h1 id="logotop"><a href="{PREF[lang]}/"><span class="logo">[⇄]</span> MyMany<span class="tld">.mooo.com</span></a>
+  <h1 id="logotop"><a href="{PREF[lang]}/"><span class="logo">[⇄]</span> MyMany<span class="tld">.info.gf</span></a>
     <small style="color:#a8a8a8">{sub}</small></h1>
   {switch}
 </div>
